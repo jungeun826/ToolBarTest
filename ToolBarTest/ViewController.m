@@ -39,7 +39,7 @@
     
     UIBarButtonItem *titleButton = [[UIBarButtonItem alloc]initWithTitle:@"Button" style:UIBarButtonItemStyleDone target:self action:@selector(handleButton:)];
     
-    NSArray *segments = [NSArray arrayWithObjects:@"A",@"B",@"C", nil];
+    NSArray *segments = @[@"A",@"B",@"C"];
     
     UISegmentedControl *segment = [[UISegmentedControl alloc] initWithItems:segments];
     segment.frame  = CGRectMake(0, 0, 140, 44);
@@ -49,7 +49,7 @@
     //space.width = 70;
     UIBarButtonItem *refreshButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(handleRefresh:)];
     
-    NSArray *items = [NSArray arrayWithObjects:titleButton,segmentButton, space, refreshButton, nil];
+    NSArray *items = @[titleButton,segmentButton, space, refreshButton];
     [toolBar setItems:items];
     [self.view addSubview:toolBar];
 
