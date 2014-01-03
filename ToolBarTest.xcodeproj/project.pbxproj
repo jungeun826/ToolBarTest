@@ -21,6 +21,7 @@
 		00F2AA7318767DB5008C2216 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F2AA5518767DB5008C2216 /* UIKit.framework */; };
 		00F2AA7B18767DB5008C2216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F2AA7918767DB5008C2216 /* InfoPlist.strings */; };
 		00F2AA7D18767DB5008C2216 /* ToolBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F2AA7C18767DB5008C2216 /* ToolBarTestTests.m */; };
+		00F2AA8818767E75008C2216 /* moon-sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F2AA8718767E75008C2216 /* moon-sky.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +47,14 @@
 		00F2AA6118767DB5008C2216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00F2AA6418767DB5008C2216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00F2AA6618767DB5008C2216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00F2AA6718767DB5008C2216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00F2AA6718767DB5008C2216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; tabWidth = 3; };
 		00F2AA6918767DB5008C2216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00F2AA6F18767DB5008C2216 /* ToolBarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolBarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F2AA7018767DB5008C2216 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		00F2AA7818767DB5008C2216 /* ToolBarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolBarTestTests-Info.plist"; sourceTree = "<group>"; };
 		00F2AA7A18767DB5008C2216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F2AA7C18767DB5008C2216 /* ToolBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBarTestTests.m; sourceTree = "<group>"; };
+		00F2AA8718767E75008C2216 /* moon-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moon-sky.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		00F2AA4518767DB5008C2216 = {
 			isa = PBXGroup;
 			children = (
+				00F2AA8618767E58008C2216 /* Res */,
 				00F2AA5718767DB5008C2216 /* ToolBarTest */,
 				00F2AA7618767DB5008C2216 /* ToolBarTestTests */,
 				00F2AA5018767DB5008C2216 /* Frameworks */,
@@ -150,6 +153,15 @@
 				00F2AA7918767DB5008C2216 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F2AA8618767E58008C2216 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00F2AA8718767E75008C2216 /* moon-sky.jpg */,
+			);
+			name = Res;
+			path = ToolBarTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F2AA8818767E75008C2216 /* moon-sky.jpg in Resources */,
 				00F2AA6A18767DB5008C2216 /* Images.xcassets in Resources */,
 				00F2AA5C18767DB5008C2216 /* InfoPlist.strings in Resources */,
 				00F2AA6518767DB5008C2216 /* Main.storyboard in Resources */,
