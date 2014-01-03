@@ -22,6 +22,7 @@
 		00F2AA7B18767DB5008C2216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F2AA7918767DB5008C2216 /* InfoPlist.strings */; };
 		00F2AA7D18767DB5008C2216 /* ToolBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F2AA7C18767DB5008C2216 /* ToolBarTestTests.m */; };
 		00F2AA8818767E75008C2216 /* moon-sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F2AA8718767E75008C2216 /* moon-sky.jpg */; };
+		00F2AA8A18768CFD008C2216 /* _Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F2AA8918768CFD008C2216 /* _Right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		00F2AA7A18767DB5008C2216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F2AA7C18767DB5008C2216 /* ToolBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBarTestTests.m; sourceTree = "<group>"; };
 		00F2AA8718767E75008C2216 /* moon-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "moon-sky.jpg"; sourceTree = "<group>"; };
+		00F2AA8918768CFD008C2216 /* _Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _Right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		00F2AA8618767E58008C2216 /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				00F2AA8918768CFD008C2216 /* _Right.png */,
 				00F2AA8718767E75008C2216 /* moon-sky.jpg */,
 			);
 			name = Res;
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F2AA8A18768CFD008C2216 /* _Right.png in Resources */,
 				00F2AA8818767E75008C2216 /* moon-sky.jpg in Resources */,
 				00F2AA6A18767DB5008C2216 /* Images.xcassets in Resources */,
 				00F2AA5C18767DB5008C2216 /* InfoPlist.strings in Resources */,

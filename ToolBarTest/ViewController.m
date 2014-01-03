@@ -9,10 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *valueText;
 
 @end
 
 @implementation ViewController
+- (IBAction)processChanged:(id)sender {
+    UISlider *slider = (UISlider *)sender;
+    _valueText.text = [NSString stringWithFormat:@"Value : %f", slider.value];
+}
 - (IBAction)handleBarButtonClick:(id)sender {
     UIBarButtonItem *button = (UIBarButtonItem *)sender;
     
@@ -35,6 +40,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImage *thumb =[UIImage imageNamed:@"_Right.png"];
+    
+    //[self.view.subviews[2] setThumbImage:thumb forState:UIControlStateNormal];
     UIToolbar *toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 160, 320, 60)];
     
     UIBarButtonItem *titleButton = [[UIBarButtonItem alloc]initWithTitle:@"Button" style:UIBarButtonItemStyleDone target:self action:@selector(handleButton:)];
