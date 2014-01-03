@@ -16,7 +16,7 @@
 - (IBAction)handleBarButtonClick:(id)sender {
     UIBarButtonItem *button = (UIBarButtonItem *)sender;
     
-    if( button.tag == 1){
+    if(!button.tag){
         NSLog(@"\nLeft 버튼");
     }else{
         NSLog(@"\nRight 버튼");

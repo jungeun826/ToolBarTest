@@ -24,13 +24,13 @@
                                 <rect key="frame" x="0.0" y="29" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem tag="1" title="Left" style="done" id="LzH-Ix-525">
+                                    <barButtonItem title="Left" style="done" id="LzH-Ix-525">
                                         <connections>
                                             <action selector="handleBarButtonClick:" destination="vXZ-lx-hvc" id="4Ac-Af-2Kg"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="UtE-7s-Swh"/>
-                                    <barButtonItem tag="2" title="Right" style="done" id="zfb-Ia-HFC">
+                                    <barButtonItem tag="1" title="Right" style="done" id="zfb-Ia-HFC">
                                         <color key="tintColor" red="0.99579653530000001" green="0.011739102939999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="handleBarButtonClick:" destination="vXZ-lx-hvc" id="4W1-EQ-YiL"/>
